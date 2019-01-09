@@ -1,0 +1,29 @@
+@keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-10rem); }
+    100% {
+      opacity: 1;
+      transform: translate(0); } 
+    }
+  
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem); }
+    100% {
+        opacity: 1;
+        transform: translate(0); 
+    }
+}
+
+@keyframes moveInTop {
+    // % của cái này là % duration, ví dụ duration là 1s thì 70% là chạy được 0.7s
+    0% {
+        opacity: 0;
+        transform: translateY(5rem);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
